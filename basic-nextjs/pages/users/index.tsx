@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import Link from "next/link";
 
 const index = () => {
-    return (
-        <div>
-            Users Page
-        </div>
-    );
+  return (
+    <div>
+      <p>Users Page</p>
+      <Link href="/">
+        <a>Back to home</a>
+      </Link>
+    </div>
+  );
 };
 
 export default index;
