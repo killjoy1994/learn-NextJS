@@ -5,9 +5,6 @@ const index = () => {
   return (
     <div>
       <p>Users Page</p>
-      <Link href="/">
-        <a>Back to home</a>
-      </Link>
     </div>
   );
 };
