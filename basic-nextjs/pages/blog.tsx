@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Layout from "../Components/Layout";
 
 const Blog = () => {
   return (
-    <div>
+    <Layout>
       <p>Blog Page</p>
-    </div>
+    </Layout>
   );
 };
 

@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Layout from "../../Components/Layout";
 
 const index = () => {
   return (
-    <div>
+    <Layout>
       <p>Users Page</p>
-    </div>
+    </Layout>
   );
 };
 

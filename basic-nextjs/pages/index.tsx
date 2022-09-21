@@ -3,16 +3,13 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Layout from "../Components/Layout";
 
 const Home: NextPage = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1 className={styles["title-homepage"]}>Welcome Bagus Nugroho</h1>
-      <Footer />
-    </>
+    </Layout>
   );
 };
 
