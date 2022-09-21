@@ -35,3 +35,8 @@ a {
 #__next {
   height: 100%;
 }
+
+.not-found-title {
+  color: darkgray;
+  text-align: center;
+}
