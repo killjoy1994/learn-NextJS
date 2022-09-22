@@ -7,9 +7,11 @@ import Layout from "../Components/Layout";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
-      <h1 className={styles["title-homepage"]}>Welcome Bagus Nugroho</h1>
-    </Layout>
+    <>
+      <Layout pageTitle="Homepage">
+        <h1 className={styles["title-homepage"]}>Welcome Bagus Nugroho</h1>
+      </Layout>
+    </>
   );
 };
 
