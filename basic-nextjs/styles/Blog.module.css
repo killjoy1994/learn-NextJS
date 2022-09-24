@@ -1,0 +1,12 @@
+.card {
+  padding: 10px;
+  box-shadow: 6px 3px 13px 1px rgb(0 0 0 / 35%);
+  min-width: 200px;
+  border-radius: 12px;
+  margin: 12px;
+}
+
+.blog-title {
+  font-size: 25px;
+  font-weight: 700;
+}
